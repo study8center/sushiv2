@@ -64,7 +64,55 @@ footer{
 }
 #menu{
 	list-style: none;
+	padding-top: 25px;
 }
 #menu li{
 	float: left;
+	margin-left: 30px;
+}
+#menu a{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;font-weight: 100;
+	color: #262626;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+#menu a:hover{
+	color: white;
+}
+#sociales{
+	float: right;
+	list-style: none;
+	margin-top: 7px;
+	margin-right: 15px;
+}
+#sociales li{
+	float: left;
+	margin-left: 15px;
+}
+#facebook{
+	width: 10px;
+	height: 20px;
+	background-image: url(../img/sociales/facebook.png);
+}
+#facebook:hover{
+	background-image: url(../img/sociales/facebook2.png);
+}
+
+#twitter{
+	width: 22px;
+	height: 18px;
+	background-image: url(../img/sociales/twitter.png);
+}
+#twitter:hover{
+	background-image: url(../img/sociales/twitter2.png);
+}
+
+#instagram{
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/sociales/instagram.png);
+}
+#instagram:hover{
+	background-image: url(../img/sociales/instagram2.png);
 }
