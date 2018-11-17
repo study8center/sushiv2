@@ -46,27 +46,17 @@ footer{
 	height: 200px;
 	background-color: #A1C133;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#centrar_header{
+#centrar_nav, #centrar_header, #centrar_promo,
+#centrar_contenidos, #centrar_mapa, #centrar_footer{
 	width: 1200px;
-	height: 600px;
-	background-color: lightblue;
+	height: 100%;
+	background-color: rgba(0,65,86,0.42);
 	margin-left: auto;
 	margin-right: auto;
-}*/
+	position: relative;
+}
+
+#centrar_nav img{
+	float: left;
+}
+
