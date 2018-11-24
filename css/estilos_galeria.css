@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section#contenidos{
+	height: 930px;
+}
+div#descripcion{
+	width: 324px;
+	height: 188px;
+	position: absolute;
+	top: 232px;
+	left: 72px;
+}
+div#miniaturas{
+	width: 581px;
+	height: 285px;
+	position: absolute;
+	top: 570px;
+	left: 0;
+}
+div#fotoBig{
+	width: 582px;
+	height: 708px;
+	position: absolute;
+	top: 148px;
+	left: 612px;
+}
+div#descripcion h3{
+	font-family:  "Georgia", serif;
+	font-size: 32px;
+	color: rgba(161,193,51,1.00);
+	margin-bottom: 38px;
+}
+div#descripcion p{
+	font-family:  Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-weight: 100;
+	font-size: 16px;
+	color: #F4F4F4;
+	letter-spacing: 2px;
+	line-height: 24px;
+}

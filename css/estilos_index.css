@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+section#contenidos{
+	height: 930px;
+}
+
+.boxSushi{
+	width: 276px;
+	height: 350px;
+	background-color: tomato;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+	-webkit-transition: background-image 0.35s ease-out;
+	-moz-transition: background-image 0.35s ease-out;
+	-ms-transition: background-image 0.35s ease-out;
+	transition: background-image 0.35s ease-out;
+}
+
+div#sushi1{
+	background-image: url(../especialidades/especialidad1.jpg);
+}
+div#sushi1:hover{
+	background-image: url(../especialidades/hover/especialidad1.jpg);
+}
